@@ -1,10 +1,11 @@
 import React from 'react';
+import './Home.css';
 
 function Home() {
   return (
-    <div>
-      <h1>Bienvenido al Hotel Cama Sutra</h1>
-      <p>¡Su destino para unas vacaciones inolvidables!</p>
+    <div className="container">
+      <h1 className="heading">Bienvenido al Hotel Cama Sutra</h1>
+      <p className="paragraph">¡Su destino para unas vacaciones inolvidables!</p>
     </div>
   );
 }
