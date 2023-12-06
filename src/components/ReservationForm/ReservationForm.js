@@ -20,7 +20,9 @@ function ReservationForm() {
       return;
     }
 
-    
+    // Aquí, enviarías los datos del formulario a tu base de datos o API para crear una nueva reserva
+    // Supongamos que utilizas una API ficticia:
+    // axios.post('/api/reservations', formData);
 
     setFormSuccess('¡Reserva exitosa!');
     setFormData({ room: '', date: '', guest: '' });
